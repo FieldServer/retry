@@ -1,5 +1,5 @@
-retry - The command line retry tool
-------------------------------------------
+retry - The command line retry tool - FieldServer fork for security
+-------------------------------------------------------------------
 
 Retry any shell command with exponential backoff or constant delay.
 
@@ -10,16 +10,8 @@ Install:
 retry is a shell script, so drop it somewhere and make sure it's added to your $PATH. Or you can use the following one-liner:
 
 ```sh
-sudo sh -c "curl https://raw.githubusercontent.com/kadwanev/retry/master/retry -o /usr/local/bin/retry && chmod +x /usr/local/bin/retry"
+sudo sh -c "curl https://raw.githubusercontent.com/FieldServer/retry/master/retry -o /usr/local/bin/retry && chmod +x /usr/local/bin/retry"
 ```
-
-If you're on OS X, retry is also on Homebrew:
-
-```
-brew pull 27283
-brew install retry
-```
-Not popular enough for homebrew-core. Please star this project to help.
 
 ### Usage
 
